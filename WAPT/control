@@ -1,0 +1,29 @@
+package           : game-minecraft-launcher
+version           : 1.19.2
+architecture      : x64
+section           : base # voir avec Delmon
+priority          : optional
+maintainer        : Administrateur
+description       : Minecraft Launcher
+description_fr    : Laceur du jeu Minecraft
+depends           : #on met java 17??
+conflicts         :
+maturity          : DEV
+locale            : fr
+target_os         : windows
+min_os_version    :
+max_os_version    :
+min_wapt_version  : 1.8.2
+sources           :
+installed_size    : 1500000000
+impacted_process  : Minecraft.exe
+audit_schedule    :
+editor            : Mojang
+keywords          : game
+licence           : Proriaitaire
+homepage          : https://www.minecraft.net/
+signer            : # voir avec Delmon
+signer_fingerprint: 
+signature         : 
+signature_date    : 
+signed_attributes : 
