@@ -11,5 +11,7 @@ def install():
         run(r'"MinecraftInstaller.msi" /qn /norestart /l*v ') 
     else():
         print "Architecture non supportée"
+    print "On lance le launcher pour le mettre à jour"
+    run(r'"C:\Program Files (x86)\Minecraft Launcher\MinecraftLauncher.exe" --help') #on utilise l'option --help pour avoir uniquement l'update
     print "Instalation de minecraft finie!"
 
